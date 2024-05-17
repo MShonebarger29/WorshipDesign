@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #facccc;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Center-align all headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Add padding and background color to header */
+header {
+    background-color: #f3b3b3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Add padding and background color to main content */
+main {
+    padding: 20px;
+}
+
+/* Style images */
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Style opinions section */
+.opinion {
+    background-color: #facccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.opinion h3 {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #facccc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style importance section */
+.importance {
+    text-align: justify;
+}
+
+.importance ul {
+    list-style-type: none;
+}
+
+.importance ul li {
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #facccc;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #f3b3b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
